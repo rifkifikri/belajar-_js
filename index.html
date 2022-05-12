@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+   <title> Percobaan-1</title> <!-- Judul Web -->
+	<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+   
+<body >
+	<script src="script.js"></script>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2">Data 1 : </div>
+			<div class="col-md-6 "><input type="text" id = "data1"></div>
+		</div>
+		<div class="row">	
+			<div class="col-md-2">Data 2 : </div>
+			<div class="col-md-6 "><input type="text" id = "data2"> </div>
+		</div>
+		<div class="row">
+			<div class="col-md-2"> Hasil  :</div>
+			<div class="col-md-6"> <input type="text" id = "hasil"> <br></div>
+		</div>
+		<div class="row">
+			<div class="col-md-4"><input type="button" id="proses" onClick="proses();" value="Proses"></div>
+		</div>
+	
+	
+		
+    <br>
+    <!-- untuk mencari ganjil genap -->
+    Isi Nilai awal : <input type="text" id = "nilai1"> <br>
+    Isi Nilai Akhir : <input type="text" id = "nilai2"> <br>
+	Hasil  : <input type="text" id = "hasil"> <br>
+	<input type="button" id="proses" onClick="ganjil_genap()" value="ganjil genap">
+    <br>
+     <!-- untuk cetak bintang -->
+     Masukkan Jumlah Bintang : <input type="text" id = "bintang1"> <br>
+     bintang akhir : <input type="text" id = "bintang2"> <br>
+     <input type="button" id="proses3" onClick="hasil();" value="Bintang Kanan">
+	 <input type="button" id="proses5" onClick="hasil2();" value="Bintang dengan while">
+	 <input type="button" id="proses6" onClick="hasil3();" value="Bintang dengan do while">
+     <!-- array -->
+     <input type="button" id="proses4" onClick="belajarArray();" value="Array">
+     <!-- array2 -->
+     <input type="button" id="proses4" onClick="belajarArray2();" value="Array2">
+
+	</div>
+</body>	
+</html>

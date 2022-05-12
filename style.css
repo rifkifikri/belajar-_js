@@ -1,0 +1,10 @@
+body{
+    background:linear-gradient(180deg, #ffffa7 0, #ffffa4 16.67%, #eaffa1 33.33%, #d5f29d 50%, #c1e499 66.67%, #afd896 83.33%, #a0cd93 100%);
+}
+.container{
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    background:#90E0EF;
+    width: 50%;
+}
